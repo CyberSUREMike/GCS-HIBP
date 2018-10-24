@@ -120,7 +120,8 @@ IF NOT EXIST "%DEPLOYMENT_TARGET%\env\azure.env.%PYTHON_RUNTIME%.txt" (
 
 :: 4. Install packages
 echo Pip install requirements.
-env\scripts\pip install -r requirements.txt
+::env\scripts\pip install -r requirements.txt
+D:\home\Python364x64\python.exe -m pip install --upgrade -r requirements.txt
 IF !ERRORLEVEL! NEQ 0 goto error
 
 REM Add additional package installation here
