@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 waitress==1.0.1
 flask==1.0.2
 flask_restful==0.3.6
 requests==2.20
+=======
+waitress==1.0.1
+flask==1.0.2
+flask_restful==0.3.6
+requests==2.20
+>>>>>>> 3ea0d4bb6491210789cbe40ff787881803a3df65
