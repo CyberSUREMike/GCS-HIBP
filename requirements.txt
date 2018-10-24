@@ -1,0 +1,4 @@
+waitress==1.0.1
+flask==1.0.2
+flask_restful==0.3.6
+requests==2.20
